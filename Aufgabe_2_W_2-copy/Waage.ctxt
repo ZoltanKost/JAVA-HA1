@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Waage
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Waage\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=gewicht
+comment1.target=Waage(int)
+comment1.text=\r\n\ Waage.\ \r\n\ \r\n\ @param\ gewicht\ Gewicth\ in\ kg.\r\n
+comment2.params=neuesGewicht
+comment2.target=void\ registriere(int)
+comment2.text=\r\n\ Registrieren\ neues\ Gewicht\r\n\ @param\ neuesGewicht\ Ergebnis\ der\ physischen\r\n\ Messung\ der\ Waage\r\n
+comment3.params=
+comment3.target=int\ gibMinimalgewicht()
+comment4.params=
+comment4.target=int\ gibMaximalgewicht()
+comment5.params=
+comment5.target=int\ gibDurchschnittsgewicht()
+numComments=6
