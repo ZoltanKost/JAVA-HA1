@@ -73,7 +73,12 @@ class TextAnalyse
         }
         return vocalCount;
     }
-    
+    /**
+     * Ermittelt, ob ein String ein Palindrom ist.
+     * 
+     * @param s analysierende string
+     * @return true, wenn es sich um eine Palindrom handelt, false sonst
+     */
     public boolean isPalindrom(String s)
     {
         int l = s.length();
@@ -87,7 +92,13 @@ class TextAnalyse
         
         return true;
     }
-    
+    /**
+     * Ermittelt, welche substring von string das grosste palindrom ist. Leerzeichen werden dabei als 
+     * normale buchstaben betrachtet.
+     * 
+     * @param s analysierende String
+     * @return das groesste Palindrom, leere string wenn keine vorhanden sind
+     */
     public String longestPalidrom(String s)
     {
         String res = new String();
