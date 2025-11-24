@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Rennauto
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Rennauto\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=fahrerin\ fahrzeugtyp\ maximalgeschwindigkeit\ strecke
+comment1.target=Rennauto(java.lang.String,\ int,\ int,\ int)
+comment2.params=fahrerin
+comment2.target=Rennauto(java.lang.String)
+comment3.params=time
+comment3.target=void\ fahre(float)
+comment4.params=strecke
+comment4.target=void\ SetStrecke(int)
+comment5.params=
+comment5.target=int\ GetStrecke()
+comment6.params=
+comment6.target=float\ GetPosition()
+numComments=7

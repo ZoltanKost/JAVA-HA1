@@ -1,0 +1,31 @@
+Class documentation
+<---- javadoc command: ---->
+C:\BlueJ\bluej521\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+17
+-classpath
+C:\BlueJ\bluej521\lib\bluejcore.jar;C:\BlueJ\bluej521\lib\javafx-base-20.0.1-win.jar;C:\BlueJ\bluej521\lib\javafx-base-20.0.1.jar;C:\BlueJ\bluej521\lib\javafx-controls-20.0.1-win.jar;C:\BlueJ\bluej521\lib\javafx-controls-20.0.1.jar;C:\BlueJ\bluej521\lib\javafx-fxml-20.0.1-win.jar;C:\BlueJ\bluej521\lib\javafx-graphics-20.0.1-win.jar;C:\BlueJ\bluej521\lib\javafx-graphics-20.0.1.jar;C:\BlueJ\bluej521\lib\javafx-media-20.0.1-win.jar;C:\BlueJ\bluej521\lib\javafx-media-20.0.1.jar;C:\BlueJ\bluej521\lib\javafx-swing-20.0.1-win.jar;C:\BlueJ\bluej521\lib\javafx-web-20.0.1-win.jar;C:\BlueJ\bluej521\lib\junit-4.12.jar;C:\BlueJ\bluej521\lib\junit-jupiter-5.5.2.jar;C:\BlueJ\bluej521\lib\junit-jupiter-api-5.5.2.jar;C:\BlueJ\bluej521\lib\junit-jupiter-engine-5.5.2.jar;C:\BlueJ\bluej521\lib\junit-jupiter-params-5.5.2.jar;C:\BlueJ\bluej521\lib\junit-platform-commons-1.5.2.jar;C:\BlueJ\bluej521\lib\junit-platform-engine-1.5.2.jar;C:\BlueJ\bluej521\lib\junit-platform-launcher-1.5.2.jar;C:\BlueJ\bluej521\lib\junit-platform-suite-api-1.5.2.jar;C:\BlueJ\bluej521\lib\junit-vintage-engine-5.5.2.jar;C:\BlueJ\bluej521\lib\hamcrest-core-1.3.jar;C:\BlueJ\bluej521\lib\opentest4j-1.2.0.jar;C:\BlueJ\bluej521\lib\lang-stride.jar;C:\BlueJ\bluej521\lib\javafx\javafx.base.jar;C:\BlueJ\bluej521\lib\javafx\javafx.controls.jar;C:\BlueJ\bluej521\lib\javafx\javafx.fxml.jar;C:\BlueJ\bluej521\lib\javafx\javafx.graphics.jar;C:\BlueJ\bluej521\lib\javafx\javafx.media.jar;C:\BlueJ\bluej521\lib\javafx\javafx.properties.jar;C:\BlueJ\bluej521\lib\javafx\javafx.swing.jar;C:\BlueJ\bluej521\lib\javafx\javafx.web.jar;C:\Users\schmo\Dropbox\0Work\HAW\Lehre\WiSe2324-PR1-AI\Praktikum\Blatt03-ReferenzenSchleifenAutorennen\Projekte\Blatt03_2_Iteration
+-d
+C:\Users\schmo\Dropbox\0Work\HAW\Lehre\WiSe2324-PR1-AI\Praktikum\Blatt03-ReferenzenSchleifenAutorennen\Projekte\Blatt03_2_Iteration\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\schmo\Dropbox\0Work\HAW\Lehre\WiSe2324-PR1-AI\Praktikum\Blatt03-ReferenzenSchleifenAutorennen\Projekte\Blatt03_2_Iteration\Schleifendreher.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\schmo\Dropbox\0Work\HAW\Lehre\WiSe2324-PR1-AI\Praktikum\Blatt03-ReferenzenSchleifenAutorennen\Projekte\Blatt03_2_Iteration\Schleifendreher.java...
+Constructing Javadoc information...
+Standard Doclet version 17.0.4.1+1
+Building tree for all the packages and classes...
+Generating C:\Users\schmo\Dropbox\0Work\HAW\Lehre\WiSe2324-PR1-AI\Praktikum\Blatt03-ReferenzenSchleifenAutorennen\Projekte\Blatt03_2_Iteration\doc\Schleifendreher.html...
+Generating C:\Users\schmo\Dropbox\0Work\HAW\Lehre\WiSe2324-PR1-AI\Praktikum\Blatt03-ReferenzenSchleifenAutorennen\Projekte\Blatt03_2_Iteration\doc\package-summary.html...
+Generating C:\Users\schmo\Dropbox\0Work\HAW\Lehre\WiSe2324-PR1-AI\Praktikum\Blatt03-ReferenzenSchleifenAutorennen\Projekte\Blatt03_2_Iteration\doc\index.html...

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=TextAnalyse
+comment0.text=\r\n\ Diese\ Klasse\ bietet\ die\ M\u00F6glichkeit,\ Texte\ zu\ analysieren.\r\n\ Sie\ dient\ als\ Einstieg\ in\ Schleifenkonstrukte\ und\ zeigt\ in\r\n\ der\ Methode\ istFrage\ beispielhaft\ einige\ Methodenaufrufe\ an\r\n\ einem\ Objekt\ der\ Klasse\ String.\r\n\ \r\n\ @author\ Fredrik\ Winkler,\ J\u00F6rg\ Rathlev,\ Petra\ Becker-Pechau\r\n\ @version\ 2025\r\n
+comment1.params=text
+comment1.target=boolean\ istFrage(java.lang.String)
+comment1.text=\r\n\ Ermittelt,\ ob\ es\ sich\ bei\ dem\ \u00FCbergebenen\ Text\ um\ eine\ Frage\r\n\ handelt.\ Eine\ Frage\ erkennt\ man\ am\ abschlie\u00DFenden\ Fragezeichen.\r\n\ \r\n\ @param\ text\ der\ zu\ analysierende\ Text\r\n\ @return\ true,\ wenn\ es\ sich\ um\ eine\ Frage\ handelt,\ false\ sonst\r\n
+comment2.params=text
+comment2.target=boolean\ istFrageKompakt(java.lang.String)
+comment2.text=\r\n\ Ermittelt,\ ob\ es\ sich\ bei\ dem\ \u00FCbergebenen\ Text\ um\ eine\ Frage\r\n\ handelt.\ Eine\ Frage\ erkennt\ man\ am\ abschlie\u00DFenden\ Fragezeichen.\r\n\ \r\n\ @param\ text\ der\ zu\ analysierende\ Text\r\n\ @return\ true,\ wenn\ es\ sich\ um\ eine\ Frage\ handelt,\ false\ sonst\r\n
+comment3.params=text
+comment3.target=int\ zaehleVokale(java.lang.String)
+comment4.params=s
+comment4.target=boolean\ isPalindrom(java.lang.String)
+comment4.text=\r\n\ Ermittelt,\ ob\ ein\ String\ ein\ Palindrom\ ist.\r\n\ \r\n\ @param\ s\ analysierende\ string\r\n\ @return\ true,\ wenn\ es\ sich\ um\ eine\ Palindrom\ handelt,\ false\ sonst\r\n
+comment5.params=s
+comment5.target=java.lang.String\ longestPalidrom(java.lang.String)
+comment5.text=\r\n\ Ermittelt,\ welche\ substring\ von\ string\ das\ grosste\ palindrom\ ist.\ Leerzeichen\ werden\ dabei\ als\ \r\n\ normale\ buchstaben\ betrachtet.\r\n\ \r\n\ @param\ s\ analysierende\ String\r\n\ @return\ das\ groesste\ Palindrom,\ leere\ string\ wenn\ keine\ vorhanden\ sind\r\n
+numComments=6
