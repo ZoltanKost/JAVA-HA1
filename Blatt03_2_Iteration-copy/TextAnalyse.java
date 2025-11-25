@@ -101,42 +101,28 @@ class TextAnalyse
      */
     public String longestPalidrom(String s)
     {
-        String res = new String();
         s = s.toLowerCase();
-        int l = s.length();
-        int checkingIndex = 0;
-        int longest = 0;
-        String temp = new String();
+        int length = s.length();
+        int l = length;
+        int checkingIndex;
+        String sub = "";
         
-        while(checkingIndex < l - 1)
+        while(l >= 0)
         {
-            char left = s.charAt(checkingIndex);
-            
-            int checkingRight = checkingIndex + 1;
-            boolean isPalindrom = true;
-            char right = ' ';
-            while(checkingRight < l)
+            checkingIndex = 0;
+            while(checkingIndex + l <= length)
             {
-                right = s.charAt(checkingRight);
-                if(right != left || (checkingRight - checkingIndex) + 1 < longest )
+                sub = s.substring(checkingIndex, checkingIndex + l);
+                if(this.isPalindrom(sub))
                 {
-                    checkingRight++;
-                    continue;
+                    return sub;
                 }
-                temp = s.substring(checkingIndex, checkingRight + 1);
-                if(!this.isPalindrom(temp)) 
-                {
-                    checkingRight++;
-                    continue;
-                }
-                longest = (checkingRight - checkingIndex) + 1;
-                res = temp;
-                checkingRight++;
+                checkingIndex++;
             }
-            checkingIndex++;
+            l--;
         }
         
-        return res;
+        return "";
     }
     
 }
