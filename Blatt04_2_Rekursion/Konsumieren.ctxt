@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=Konsumieren
+comment0.text=\r\n\ Die\ Methoden\ in\ dieser\ Klasse\ haben\ keine\ besonders\ aussagekr\u00E4ftigen\ Namen.\r\n\ Schaue\ dir\ den\ Quelltext\ an,\ f\u00FChre\ die\ Methoden\ aus\ und\ dokumentiere\ sie.\r\n\ \r\n\ @author\ Fredrik\ Winkler,\ Axel\ Schmolitzky\r\n\ @version\ 2025\r\n
+comment1.params=x
+comment1.target=int\ a(int)
+comment1.text=\r\n\ Liefert\ die\ f\u00FChrende\ Ziffer\ einer\ Zahl.\r\n\ \r\n\ \ \ \ a(5678)\r\n\ ->\ a(567)\r\n\ ->\ a(56)\r\n\ ->\ a(5)\r\n\ ->\ 5\r\n
+comment10.params=s\ c\ i
+comment10.target=int\ g2(java.lang.String,\ char,\ int)
+comment10.text=\r\n\ Sucht\ nach\ bestimmter\ char\ c\ in\ der\ string\ s.\ Gibt\ index\ von\ erster\ getroffener\ zur\u00FCck.\r\n\ ->\ g2("Rosen",\ 'e',0)\ c\ \!\=\ e;\ i++\r\n\ ->\ g2("\ osen",\ 'e',1)\ c\ \!\=\ e;\ i++\ \r\n\ ->\ g2("\ \ sen",\ 'e',2)\ c\ \!\=\ e;\ i++\r\n\ ->\ g2("\ \ \ en",\ 'e',3)\ c\ \!\=\ e;\ i++\r\n\ ->\ \r\n
+comment11.params=
+comment11.target=void\ testeAlleMethoden()
+comment11.text=\r\n\ Hier\ finden\ die\ Aufrufe\ statt,\ die\ in\ den\ Diagrammen\r\n\ auf\ dem\ Aufgabenblatt\ veranschaulicht\ werden\ (sollen).\r\n
+comment2.params=x
+comment2.target=int\ b(int)
+comment2.text=\r\n\ Liefert\ die\ Anzahl\ Ziffern\ einer\ Zahl.\r\n\ \r\n\ \ \ b(5678)\r\n\ ->\ 1\ +\ b(567)\r\n\ ->\ 1\ +\ (1\ +\ b(56))\r\n\ ->\ 1\ +\ (1\ +\ (1\ +\ b(5)))\r\n\ ->\ 1\ +\ (1\ +\ (1\ +\ 1))\r\n\ ->\ 1\ +\ (1\ +\ 2)\r\n\ ->\ 1\ +\ 3\r\n\ ->\ 4\r\n
+comment3.params=x
+comment3.target=int\ c(int)
+comment3.text=\r\n\ Liefert\ die\ Quersumme\ einer\ Zahl.\r\n\r\n\ \ \ c(5678)\r\n\ ->\ 567\ --\ 8\r\n\ ->\ 56\ --\ 7\ +\ 8\r\n\ ->\ 5\ --\ 15\ +\ 6\r\n\ ->\ 0\ --\ 21\ +\ 5\ \=\ 26\r\n
+comment4.params=x
+comment4.target=java.lang.String\ d(int)
+comment4.text=\r\n\ Wandelt\ integer\ in\ String.\r\n\ \r\n\ \ \ d(5678)\r\n\ ->\ d(567)\ +\ '8'\r\n\ ->\ (d(56)\ +\ '7')\ +\ '8'\r\n\ ->\ ((d(5)\ +\ '6')\ +\ '7')\ +\ '8'\r\n\ ->\ ((\ "5"\ +\ '6')\ +\ '7')\ +\ '8'\r\n\ ->\ (\ \ "56\ \ \ \ \ \ \ \ +\ '7')\ +\ '8'\r\n\ ->\ \ \ \ "567"\ \ \ \ \ \ \ \ \ \ \ \ \ +\ '8'\r\n\ ->\ \ \ \ "5678"\r\n
+comment5.params=ziffer
+comment5.target=char\ zifferAlsZeichen(int)
+comment5.text=\r\n\ Wandelt\ eine\ Ziffer\ (0\ bis\ 9)\ in\ ein\ Zeichen\ ('0'\ bis\ '9')\ um.\r\n\ @param\ x\ eine\ ganze\ Zahl\ aus\ dem\ Bereich\ 0\ bis\ 9\r\n
+comment6.params=x
+comment6.target=int\ e(int)
+comment6.text=\r\n\ Spiegelt\ x.\ Gibt\ ein\ integer.\r\n\ \r\n\ e(5678)\r\n\ ->\ \r\n
+comment7.params=x\ y
+comment7.target=int\ e2(int,\ int)
+comment7.text=\r\n\ \ Hilfsmethode\ fuer\ x\ spiegeln.\ Spiegelt\ x\ und\ fuegt\ y\ am\ anfang.\ Gibt\ ein\ integer.\r\n\ e2(5678,\ 0)\r\n\ ->\ e2(5678),\ 0\ \r\n\ ->\ e2(567\ ),\ 8\r\n\ ->\ e2(56\ \ ),\ 87\r\n\ ->\ e2(5\ \ \ ),\ 876\r\n\ ->\ e2(\ \ \ \ ),\ 8765\r\n
+comment8.params=s\ c
+comment8.target=int\ f(java.lang.String,\ char)
+comment8.text=\r\n\ Sucht\ nach\ bestimmter\ char\ c\ in\ der\ string\ s.\ Gibt\ index\ von\ erster\ getroffener\ zur\u00FCck.\r\n\ \r\n\ f("Rosen",\ 'e')\r\n\ ->\ e2("Rosen",\ 'e')\ result\ +\ 1\r\n\ ->\ e2("\ osen",\ 'e')\ result\ +\ 1\r\n\ ->\ e2("\ \ sen",\ 'e')\ result\ +\ 1\r\n\ ->\ e2("\ \ \ en",\ 'e')\ result\ \=\ 0\r\n
+comment9.params=s\ c
+comment9.target=int\ g(java.lang.String,\ char)
+comment9.text=\r\n\ Sucht\ nach\ bestimmter\ char\ c\ in\ der\ string\ s.\ Gibt\ index\ von\ erster\ getroffener\ zur\u00FCck.\ \r\n
+numComments=12
