@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=KartenTripel
+comment0.text=\r\n\ Triple\ von\ Karten.\r\n\r\n\ @author\ (Mihail\ Costenco)\r\n\ @version\ (09.12.2025)\r\n
+comment1.params=
+comment1.target=void\ KartenTriple()
+comment2.params=
+comment2.target=boolean\ istVollstaendig()
+comment3.params=karte
+comment3.target=boolean\ tryAdd(Spielkarte)
+numComments=4
