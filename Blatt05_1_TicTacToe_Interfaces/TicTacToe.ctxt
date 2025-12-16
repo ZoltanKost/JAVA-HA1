@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\r\n\ In\ dieser\ Klasse\ ist\ die\ Spiellogik\ von\ Tic-Tac-Toe\ realisiert.\ \r\n\ \r\n\ Zwei\ Spieler\ spielen\ auf\ einem\ Spielfeld\ der\ Gr\u00F6\u00DFe\ 3x3\ \=\ 9\ Positionen.\ \r\n\ Die\ Spieler\ besetzen\ abwechselnd\ Positionen\ auf\ dem\ Spielfeld,\ bis\ ein\ Spieler\ \r\n\ drei\ Positionen\ in\ einer\ Reihe\ besetzt\ hat\ oder\ das\ Spielfeld\ voll\ ist.\r\n\ \r\n\ @author\ Fredrik\ Winkler,\ Axel\ Schmolitzky\r\n\ @version\ 2025\r\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\r\n\ Initialisiert\ ein\ neues\ Tic-Tac-Toe-Spiel\ mit\ einem\ leeren\ Spielfeld.\ \r\n\ Spieler\ 1\ ist\ als\ erster\ dran,\ und\ das\ Spiel\ ist\ noch\ nicht\ zu\ Ende.\ \r\n
+comment10.params=zeile\ spalte
+comment10.target=boolean\ aktuellerSpielerBesitzt(int,\ int)
+comment11.params=
+comment11.target=boolean\ aktuellerSpielerHatGewonnen()
+comment11.text=\r\n\ Diese\ Methode\ \u00FCberpr\u00FCft,\ ob\ der\ aktuelle\ Spieler\ das\ Spiel\ \r\n\ gewonnen\ hat.\ Der\ Spieler\ hat\ gewonnen,\ wenn\ er\ alle\ Felder\ in\ einer\ \r\n\ Zeile,\ alle\ Felder\ in\ einer\ Spalte\ oder\ alle\ Felder\ in\ einer\ \r\n\ Diagonalen\ besetzt\ hat.\r\n\ \r\n\ @return\ true,\ falls\ der\ aktuelle\ Spieler\ eine\ \r\n\ der\ acht\ m\u00F6glichen\ Gewinnsituationen\ erreicht\ hat,\ sonst\ false.\r\n
+comment2.params=
+comment2.target=int\ gibAktuellenSpieler()
+comment2.text=\r\n\ Gibt\ an,\ welcher\ Spieler\ gerade\ dran\ ist.\r\n\ \r\n\ @return\ 1\ (Spieler\ 1)\ oder\ 2\ (Spieler\ 2)\r\n\ oder\ 0\ (Spiel\ ist\ unentschieden\ ausgegangen)\r\n
+comment3.params=
+comment3.target=void\ wechsleSpieler()
+comment3.text=\r\n\ Wechselt\ den\ aktuellen\ Spieler\ von\ 1\ zu\ 2\ und\ umgekehrt.\r\n
+comment4.params=
+comment4.target=boolean\ spielIstZuende()
+comment4.text=\r\n\ Gibt\ an,\ ob\ das\ Spiel\ zu\ Ende\ ist.\ Falls\ es\ zu\ Ende\ ist,\ \r\n\ liefert\ gibAktuellenSpieler()\ den\ Gewinner.\r\n
+comment5.params=
+comment5.target=int\ gibGewinner()
+comment5.text=\r\n\ Gibt\ an,\ ob\ das\ Spiel\ noch\ l\u00E4uft,\ ob\ das\ Spiel\ unentschieden\ geendet\ \r\n\ ist,\ oder\ ob\ einer\ der\ beiden\ Spieler\ gewonnen\ hat.\r\n\ \r\n\ @return\ -1\ (Spiel\ l\u00E4uft\ noch),\ 0\ (unentschieden),\ 1\ (Spieler\ 1\ hat\r\n\ \ \ \ \ \ \ \ \ gewonnen),\ 2\ (Spieler\ 2\ hat\ gewonnen)\r\n
+comment6.params=zeile\ spalte
+comment6.target=int\ gibBesitzer(int,\ int)
+comment6.text=\r\n\ Gibt\ den\ Besitzer\ der\ angegebenen\ Position\ auf\ dem\ Spielfeld.\r\n\ \r\n\ @param\ zeile\r\n\ \ \ \ \ \ \ \ \ \ \ \ vertikale\ Position\ (0-2)\r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ horizontale\ Position\ (0-2)\r\n\ @return\ 0\ (unbesetzt),\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment7.params=zeile\ spalte
+comment7.target=boolean\ istFrei(int,\ int)
+comment7.text=\r\n\ Ist\ das\ Spielfeld\ an\ der\ angegebenen\ Position\ noch\ frei?\r\n\ \r\n\ @param\ zeile\r\n\ \ \ \ \ \ \ \ \ \ \ \ vertikale\ Position\ (0-2)\r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ horizontale\ Position\ (0-2)\r\n
+comment8.params=zeile\ spalte
+comment8.target=void\ besetzePosition(int,\ int)
+comment8.text=\r\n\ Besetzt\ eine\ Position\ auf\ dem\ Spielfeld\ f\u00FCr\ den\ aktuellen\ Spieler.\ \r\n\ Anschliessend\ wird\ gepr\u00FCft,\ ob\ der\ aktuelle\ Spieler\ gewonnen\ hat,\ oder\ \r\n\ ob\ das\ Spielfeld\ voll\ ist.\ Ansonsten\ wird\ der\ aktuelle\ Spieler\ \r\n\ gewechselt.\r\n\ \r\n\ @param\ zeile\r\n\ \ \ \ \ \ \ \ \ \ \ \ vertikale\ Position\ (0-2)\r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ horizontale\ \ \ \ Position\ (0-2)\r\n
+comment9.params=pos1Zeile\ pos1Spalte\ pos2Zeile\ pos2Spalte\ pos3Zeile\ pos3Spalte
+comment9.target=boolean\ aktuellerSpielerBesitzt(int,\ int,\ int,\ int,\ int,\ int)
+comment9.text=\r\n\ Diese\ Methode\ \u00FCberpr\u00FCft,\ ob\ der\ aktuelle\ Spieler\ \r\n\ an\ allen\ drei\ \u00FCbergebenen\ Positionen\ p1,\ p2\ und\ p3\ das\ Spielfeld\ besetzt\ hat.\r\n\ \r\n\ @param\ pos1Zeile\ Zeilennummer\ der\ ersten\ Position\ (0-2)\r\n\ @param\ pos1Spalte\ Spaltennummer\ der\ ersten\ Position\ (0-2)\r\n\ @param\ pos2Zeile\ Zeilennummer\ der\ zweiten\ Position\ (0-2)\r\n\ @param\ pos2Spalte\ Spaltennummer\ der\ zweiten\ Position\ (0-2)\r\n\ @param\ pos3Zeile\ Zeilennummer\ der\ dritten\ Position\ (0-2)\r\n\ @param\ pos3Spalte\ Spaltennummer\ der\ dritten\ Position\ (0-2)\r\n\ @return\ true,\ wenn\ der\ aktuelle\ Spieler\ alle\ drei\ spezifizierten\r\n\ \ \ \ \ \ \ \ \ Positionen\ besetzt,\ sonst\ false.\r\n
+numComments=12
