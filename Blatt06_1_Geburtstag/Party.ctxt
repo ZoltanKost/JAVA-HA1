@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Party
+comment0.text=\r\n\ Auf\ einer\ Party\ werden\ G\u00E4ste\ nach\ ihren\ Geburtstagen\ gefragt.\ \r\n\ Falls\ irgendwann\ ein\ Geburtstag\ mehrfach\ vorkommt,\ liefert\ \r\n\ mindestensEinGeburtstagMehrfach\ ab\ dem\ Zeitpunkt\ immer\ true\ \r\n\ (und\ vorher\ immer\ false).\r\n\ \ \r\n\ @author\ Fredrik\ Winkler\r\n\ @author\ Axel\ Schmolitzky\r\n\ \r\n\ @version\ 2025\r\n
+comment1.params=geburtstag
+comment1.target=void\ fuegeGeburtstagHinzu(Tag)
+comment1.text=\r\n\ Ein\ weiterer\ Gast\ hat\ seinen\ Geburtstag\ verraten\ \:)\r\n\ \r\n\ @param\ geburtstag\ der\ Geburtstag\ des\ Gasts;\ darf\ nicht\ null\ sein\r\n
+comment2.params=
+comment2.target=boolean\ mindestensEinGeburtstagMehrfach()
+comment2.text=\r\n\ Gibt\ an,\ ob\ mehrere\ G\u00E4ste\ am\ gleichen\ Tag\ Geburtstag\ haben.\r\n
+numComments=3

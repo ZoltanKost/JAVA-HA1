@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TagTest
+comment0.text=\r\n\ The\ test\ class\ TagTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ testGleichheit()
+comment1.text=\r\n\ Testet,\ ob\ zwei\ Tag-Exemplare,\ die\ denselben\ Tag\ repr\u00E4sentieren,\r\n\ als\ gleich\ angesehen\ werden.\r\n
+comment2.params=
+comment2.target=void\ testUngleichheit()
+comment2.text=\r\n\ Testet,\ ob\ zwei\ Tag-Exemplare,\ die\ verschiedene\ Tage\ repr\u00E4sentieren,\r\n\ als\ ungleich\ angesehen\ werden.\r\n
+numComments=3

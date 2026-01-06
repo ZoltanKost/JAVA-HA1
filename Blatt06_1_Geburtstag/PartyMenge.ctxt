@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PartyMenge
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PartyMenge\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=PartyMenge()
+comment2.params=geburtstag
+comment2.target=void\ fuegeGeburtstagHinzu(Tag)
+comment2.text=\r\n\ Ein\ weiterer\ Gast\ hat\ seinen\ Geburtstag\ verraten\ \:)\r\n\ \r\n\ @param\ geburtstag\ der\ Geburtstag\ des\ Gasts;\ darf\ nicht\ null\ sein\r\n
+comment3.params=
+comment3.target=boolean\ mindestensEinGeburtstagMehrfach()
+comment3.text=\r\n\ Gibt\ an,\ ob\ mehrere\ G\u00E4ste\ am\ gleichen\ Tag\ Geburtstag\ haben.\r\n
+numComments=4
