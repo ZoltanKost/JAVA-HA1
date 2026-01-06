@@ -25,6 +25,6 @@ class KettenNeuron implements Neuron
             if(n.getAusgangswert() == null) continue;
             result += (n.getAusgangswert() + " ");
         }
-        return result.substring(0, result.length());
+        return result.trim();
     }
 }

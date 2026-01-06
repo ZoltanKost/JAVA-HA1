@@ -39,7 +39,7 @@ public class KettenNeuronTest
         kn.eingangHinzufuegen(pn1);
         kn.eingangHinzufuegen(pn2);
         
-        assertTrue(kn.getAusgangswert().equals("axa Regallager "));
+        assertTrue(kn.getAusgangswert().equals("axa Regallager"));
     }
 
     /**
@@ -52,7 +52,7 @@ public class KettenNeuronTest
         neuron.eingangHinzufuegen(new Signal("abc"));
         neuron.eingangHinzufuegen(new Signal("bca"));
         neuron.eingangHinzufuegen(new Signal("malla"));
-        assertTrue(neuron.getAusgangswert().equals("abc bca malla "));
+        assertTrue(neuron.getAusgangswert().equals("abc bca malla"));
     }
     @Test
     public void testEmpty()
