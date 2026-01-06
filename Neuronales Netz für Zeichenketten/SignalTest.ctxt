@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SignalTest
+comment0.text=\r\n\ The\ test\ class\ SignalTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=SignalTest()
+comment1.text=\r\n\ constructor\:\ initialisations\ for\ each\ test\ case\r\n
+comment2.params=
+comment2.target=void\ TestEquals()
+comment2.text=\r\n\ One\ method\ per\ test\ case,\ annotated\ with\ @Test\r\n
+comment3.params=
+comment3.target=void\ TestSameString()
+comment4.params=
+comment4.target=void\ TestOtherString()
+numComments=5

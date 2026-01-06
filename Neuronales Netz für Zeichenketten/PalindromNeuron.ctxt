@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PalindromNeuron
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Signal\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=toLower
+comment1.target=PalindromNeuron(boolean)
+comment2.params=
+comment2.target=java.lang.String\ getAusgangswert()
+comment3.params=neuron
+comment3.target=void\ eingangHinzufuegen(Neuron)
+comment4.params=s
+comment4.target=boolean\ isPalindrom(java.lang.String)
+numComments=5

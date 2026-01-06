@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=KettenNeuronTest
+comment0.text=\r\n\ The\ test\ class\ KettenNeuronTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=KettenNeuronTest()
+comment1.text=\r\n\ constructor\:\ initialisations\ for\ each\ test\ case\r\n
+comment2.params=
+comment2.target=void\ testKlassenArbeit()
+comment3.params=
+comment3.target=void\ testConcat()
+comment3.text=\r\n\ One\ method\ per\ test\ case,\ annotated\ with\ @Test\r\n
+comment4.params=
+comment4.target=void\ testEmpty()
+numComments=5

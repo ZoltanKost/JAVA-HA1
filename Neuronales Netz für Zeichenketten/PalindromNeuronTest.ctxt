@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PalindromNeuronTest
+comment0.text=\r\n\ The\ test\ class\ PalindromNeuronTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=PalindromNeuronTest()
+comment1.text=\r\n\ constructor\:\ initialisations\ for\ each\ test\ case\r\n
+comment2.params=
+comment2.target=void\ testPalindrom()
+comment2.text=\r\n\ One\ method\ per\ test\ case,\ annotated\ with\ @Test\r\n
+comment3.params=
+comment3.target=void\ testLongestPal()
+comment4.params=
+comment4.target=void\ testNoPalindrom()
+comment5.params=
+comment5.target=void\ testNullReturn()
+comment6.params=
+comment6.target=void\ testPalindromCaseSensitive()
+comment6.text=\r\n\ One\ method\ per\ test\ case,\ annotated\ with\ @Test\r\n
+comment7.params=
+comment7.target=void\ testLongestPalCaseSensitive()
+comment8.params=
+comment8.target=void\ testNoPalindromCaseSensitive()
+comment9.params=
+comment9.target=void\ testNullReturnCaseSensitive()
+numComments=10
