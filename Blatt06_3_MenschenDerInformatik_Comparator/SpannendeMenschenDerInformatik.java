@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 /**
@@ -52,7 +53,7 @@ class SpannendeMenschenDerInformatik
     /**
      * Schreibt die Menschen auf die Konsole, geordnet nach einem Kriterium.
      */
-    public void schreibeGeordnet(Vergleicher vergleicher)
+    public void schreibeGeordnet(Comparator<Person> vergleicher)
     {
         _menschenDerInformatik = new LinkedList<Person>(_urspruenglicheReihenfolge);
         insertionsort(vergleicher);
@@ -70,7 +71,7 @@ class SpannendeMenschenDerInformatik
      * Aber vielleicht interessiert ja den einen oder die andere Studierende, 
      * wie man ein Sortierverfahren von Hand programmieren könnte :)
      */
-    private void insertionsort(Vergleicher vergleicher)
+    private void insertionsort(Comparator<Person> vergleicher)
     {
         for (int i = 1; i < _menschenDerInformatik.size(); ++i)
         {
@@ -80,10 +81,10 @@ class SpannendeMenschenDerInformatik
         }
     }
 
-    private void insert(int j, Vergleicher vergleicher)
+    private void insert(int j, Comparator<Person> vergleicher)
     {
         Person einzufuegen = _menschenDerInformatik.get(j);
-        while ((j > 0) && vergleicher.vergleiche(einzufuegen, _menschenDerInformatik.get(j - 1)) < 0)
+        while ((j > 0) && vergleicher.compare(einzufuegen, _menschenDerInformatik.get(j - 1)) < 0)
         {
             _menschenDerInformatik.set(j, _menschenDerInformatik.get(j - 1));
             --j;

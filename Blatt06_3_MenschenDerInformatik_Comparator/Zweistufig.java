@@ -1,37 +1,38 @@
+import java.util.Comparator;
 import static java.util.Objects.requireNonNull;
 
 /**
- * Vergleicht zwei Personen anhand eines primären Vergleichers. 
- * Wenn die beiden Personen laut diesem primären Vergleicher gleich sind, 
- * dann werden die Personen anhand eines sekundären Vergleichers verglichen.
+ * Vergleicht zwei Personen anhand eines primären Comparator<Person>s. 
+ * Wenn die beiden Personen laut diesem primären Comparator<Person> gleich sind, 
+ * dann werden die Personen anhand eines sekundären Comparator<Person>s verglichen.
  * 
  * @author Fredrik Winkler
  * @version 2025
  */
-class Zweistufig implements Vergleicher
+class Zweistufig implements Comparator<Person>
 {
-    private final Vergleicher _primaer;
-    private final Vergleicher _sekundaer;
+    private final Comparator<Person> _primaer;
+    private final Comparator<Person> _sekundaer;
     
     /**
-     * @param primaer der primäre Vergleicher; darf nicht null sein
-     * @param sekundaer der sekundäre Vergleicher; darf nicht null sein
+     * @param primaer der primäre Comparator<Person>; darf nicht null sein
+     * @param sekundaer der sekundäre Comparator<Person>; darf nicht null sein
      */
-    public Zweistufig(Vergleicher primaer, Vergleicher sekundaer)
+    public Zweistufig(Comparator<Person> primaer, Comparator<Person> sekundaer)
     {
         _primaer = requireNonNull(primaer);
         _sekundaer = requireNonNull(sekundaer);
     }
 
     /**
-     * @see Vergleicher.vergleiche
+     * @see Comparator<Person>.compare
      */
-    public int vergleiche(Person a, Person b)
+    public int compare(Person a, Person b)
     {
-        int ergebnis = _primaer.vergleiche(a, b);
+        int ergebnis = _primaer.compare(a, b);
         if (ergebnis == 0)
         {
-            ergebnis = _sekundaer.vergleiche(a, b);
+            ergebnis = _sekundaer.compare(a, b);
         }
         return ergebnis;
     }
