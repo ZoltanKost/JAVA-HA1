@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Umgekehrt
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Umgekehrt\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=vergleicher
+comment1.target=Umgekehrt(Vergleicher)
+comment2.params=a\ b
+comment2.target=int\ vergleiche(Person,\ Person)
+comment2.text=\r\n\ Vergleicht\ zwei\ Personen\ miteinander\ und\ gibt\ Auskunft\ dar\u00FCber,\ in\ welcher\r\n\ Beziehung\ sie\ zueinander\ stehen.\r\n\ Wenn\ die\ beiden\ Personen\ (gemessem\ am\ Vergleichskriterium)\ gleich\ sind,\ dann\r\n\ wird\ 0\ geliefert.\r\n\ Wenn\ a\ in\ einer\ geordneten\ Liste\ vor\ b\ stehen\ w\u00FCrde,\ dann\ wird\ irgendeine\r\n\ negative\ Zahl\ geliefert.\r\n\ Ansonsten\ wird\ irgendeine\ positive\ Zahl\ geliefert.\r\n
+numComments=3

@@ -18,6 +18,51 @@ public class KettenNeuronTest
     {
         
     }
+    
+    @Test
+    public void testKlassenArbeit2()
+    {
+        Signal s1 = new Signal("axa");
+        Signal s2 = new Signal("Hallo");
+        Signal s3 = new Signal("Regallager");
+        Signal s4 = new Signal("man");
+        Signal s5 = new Signal("nam");
+        PalindromNeuron pn1 = new PalindromNeuron(true);
+        PalindromNeuron pn2 = new PalindromNeuron(true);
+        PalindromNeuron pn3 = new PalindromNeuron(true);
+        PalindromNeuron pn4 = new PalindromNeuron(true);
+        
+        pn1.eingangHinzufuegen(s1);
+        pn1.eingangHinzufuegen(s2);
+        
+        pn2.eingangHinzufuegen(s2);
+        pn2.eingangHinzufuegen(s3);
+        
+        pn3.eingangHinzufuegen(s3);
+        pn3.eingangHinzufuegen(s4);
+        
+        pn4.eingangHinzufuegen(s4);
+        pn4.eingangHinzufuegen(s1);
+        
+        KettenNeuron kn = new KettenNeuron();
+        
+        kn.eingangHinzufuegen(pn1);
+        kn.eingangHinzufuegen(pn2);
+        
+        KettenNeuron kn1 = new KettenNeuron();
+        
+        kn1.eingangHinzufuegen(pn3);
+        kn1.eingangHinzufuegen(pn4);
+        
+        PalindromNeuron n = new PalindromNeuron(true);
+        
+        n.eingangHinzufuegen(kn);
+        n.eingangHinzufuegen(kn1);
+        n.eingangHinzufuegen(pn3);
+        
+        System.out.println(n.getAusgangswert());
+        assertTrue(kn.getAusgangswert().equals("axa Regallager"));
+    }
     @Test
     public void testKlassenArbeit()
     {
