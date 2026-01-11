@@ -1,4 +1,4 @@
-
+import java.util.Comparator;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -24,14 +24,14 @@ public class PerGeschlechtTest
     @Test
     public void testMethod()
     {
-        Vergleicher test = new PerGeschlecht();
+        Comparator<Person> test = new PerGeschlecht();
         Person p1 = new Person("Jade", "Raymond", 1975, Geschlecht.WEIBLICH);
         Person p2 = new Person("Jade", "Raymond", 1975, Geschlecht.MAENNLICH);
-        assert(test.vergleiche(p1,p2) < 0);
+        assert(test.compare(p1,p2) < 0);
         
         Person p3 = new Person("Jade", "Raymond", 1975, Geschlecht.DIVERS);
-        assert(test.vergleiche(p1,p3) < 0);
-        assert(test.vergleiche(p3,p2) < 0);
+        assert(test.compare(p1,p3) < 0);
+        assert(test.compare(p3,p2) < 0);
     }
 
 }

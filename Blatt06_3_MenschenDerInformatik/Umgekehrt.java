@@ -1,15 +1,15 @@
-
+import java.util.Comparator;
 /**
  * Write a description of class Umgekehrt here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-class Umgekehrt implements Vergleicher
+class Umgekehrt implements Comparator<Person>
 {
-    private Vergleicher _vergleicher;
+    private Comparator<Person> _vergleicher;
     
-    public Umgekehrt(Vergleicher vergleicher)
+    public Umgekehrt(Comparator<Person> vergleicher)
     {
         _vergleicher = vergleicher;    
     }
@@ -22,9 +22,9 @@ class Umgekehrt implements Vergleicher
      * negative Zahl geliefert.
      * Ansonsten wird irgendeine positive Zahl geliefert.
      */
-    public int vergleiche(Person a, Person b)
+    public int compare(Person a, Person b)
     {
-        return -_vergleicher.vergleiche(a,b);
+        return -_vergleicher.compare(a,b);
     }
     
     
