@@ -1,18 +1,13 @@
-
 /**
- * Write a description of class Umgekehrt here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Ein Vergleicher ist in der Lage, zwei Personen miteinander zu vergleichen. 
+ * Welches Vergleichskriterium dabei verwendet wird, kann in jeder Klasse anders 
+ * festgelegt werden.
+ * 
+ * @author Fredrik Winkler, Axel Schmolitzky
+ * @version 2025
  */
-class Umgekehrt implements Vergleicher
+interface Vergleicher
 {
-    private Vergleicher _vergleicher;
-    
-    public Umgekehrt(Vergleicher vergleicher)
-    {
-        _vergleicher = vergleicher;    
-    }
     /**
      * Vergleicht zwei Personen miteinander und gibt Auskunft darüber, in welcher
      * Beziehung sie zueinander stehen.
@@ -22,10 +17,5 @@ class Umgekehrt implements Vergleicher
      * negative Zahl geliefert.
      * Ansonsten wird irgendeine positive Zahl geliefert.
      */
-    public int vergleiche(Person a, Person b)
-    {
-        return -_vergleicher.vergleiche(a,b);
-    }
-    
-    
+    public int vergleiche(Person a, Person b);
 }
