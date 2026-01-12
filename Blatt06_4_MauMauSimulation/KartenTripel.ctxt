@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=KartenTripel
+comment0.text=\r\n\ Ein\ KartenTripel\ besteht\ aus\ drei\ Spielkarten.\r\n\ Ein\ Exemplar\ dieser\ Klasse\ liefert\ eine\ starke\ Garantie\:\r\n\ die\ drei\ sondierenden\ Methoden\ liefern\ garantiert\ Referenzen\r\n\ auf\ drei\ verschiedene\ Karten,\ niemals\ null\!\r\n\ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ 2025\r\n
+comment1.params=k1\ k2\ k3
+comment1.target=KartenTripel(Spielkarte,\ Spielkarte,\ Spielkarte)
+comment1.text=\r\n\ Initialisiert\ ein\ Kartentripel\ mit\ drei\ Karten.\r\n\ Die\ \u00FCbergebenen\ Karten\ d\u00FCrfen\ paarweise\ nicht\ gleich\ sein.\r\n\ @param\ k1\ die\ erste\ Spielkarte;\ darf\ nicht\ null\ sein\r\n\ @param\ k2\ die\ zweite\ Spielkarte;\ darf\ nicht\ null\ sein\r\n\ @param\ k3\ die\ dritte\ Spielkarte;\ darf\ nicht\ null\ sein\r\n\ @throws\ IllegalArgumentException\r\n
+comment2.params=
+comment2.target=Spielkarte\ karte1()
+comment2.text=\r\n\ Lieferte\ die\ erste\ Spielkarte\ des\ Tripels.\r\n\ @return\ eine\ Referenz\ auf\ die\ erste\ Spielkarte\ (ungleich\ null).\r\n
+comment3.params=
+comment3.target=Spielkarte\ karte2()
+comment3.text=\r\n\ Lieferte\ die\ zweite\ Spielkarte\ des\ Tripels.\r\n\ @return\ eine\ Referenz\ auf\ die\ zweite\ Spielkarte\ (ungleich\ null).\r\n
+comment4.params=
+comment4.target=Spielkarte\ karte3()
+comment4.text=\r\n\ Lieferte\ die\ dritte\ Spielkarte\ des\ Tripels.\r\n\ @return\ eine\ Referenz\ auf\ die\ dritte\ Spielkarte\ (ungleich\ null).\r\n
+numComments=5
