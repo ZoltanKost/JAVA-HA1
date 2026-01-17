@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TitelListe
+comment0.text=\r\n\ Eine\ Schnittstelle\ f\u00FCr\ Titel-Listen.\ Eine\ Titel-Liste\ enth\u00E4lt\ eine\ Reihe\ von\ \r\n\ Musiktiteln\ in\ einer\ benutzerdefinierten\ Reihenfolge.\r\n\ <br>\r\n\ Da\ die\ Reihenfolge\ von\ Musiktiteln\ sehr\ wichtig\ ist,\ stehen\ indexbezogene\r\n\ Operationen\ zur\ Verf\u00FCgung.\ Duplikate\ sind\ zugelassen,\ weil\ in\ einer\ Titel-Liste\r\n\ derselbe\ Titel\ durchaus\ mehrfach\ gew\u00FCnscht\ sein\ kann.\r\n\ \r\n\ @author\ Till\ Aust,\ Axel\ Schmolitzky,\ Petra\ Becker-Pechau,\ Christian\ Sp\u00E4h\r\n\ @version\ 2025\r\n
+comment1.params=titel\ position
+comment1.target=void\ fuegeEin(Titel,\ int)
+comment1.text=\r\n\ F\u00FCgt\ einen\ Titel\ an\ der\ Position\ <code>position</code>\ in\ die\ Titelliste\r\n\ ein.\ Alle\ folgenden\ Eintr\u00E4ge\ werden\ um\ eine\ Indexposition\ verschoben.\r\n\ Wenn\ <code>position</code>\ gleich\ der\ L\u00E4nge\ der\ Titelliste\ ist,\ dann\r\n\ wird\ der\ <code>titel</code>\ am\ Ende\ angef\u00FCgt.\r\n\ \r\n\ @param\ titel\ der\ einzuf\u00FCgende\ Titel,\ darf\ nicht\ null\ sein.\r\n\ @param\ position\ die\ Position\ des\ Titels,\ g\u00FCltig\ sind\ Werte\ von\ 0\ bis\ gibLaenge().\r\n
+comment2.params=position
+comment2.target=void\ entferne(int)
+comment2.text=\r\n\ Entfernt\ den\ Titel\ an\ der\ angegebenen\ Position.\ Alle\ folgenden\ Eintr\u00E4ge\r\n\ werden\ um\ eine\ Indexposition\ verschoben.<br>\r\n\ \r\n\ @param\ position\ Eine\ Position\ in\ der\ Liste,\ g\u00FCltig\ sind\ Werte\ von\ 0\ bis\ gibLaenge()-1.\r\n
+comment3.params=titel
+comment3.target=boolean\ enthaelt(Titel)
+comment3.text=\r\n\ Pr\u00FCft,\ ob\ ein\ Titel\ in\ der\ Liste\ enthalten\ ist.\r\n\ \r\n\ @param\ titel\ der\ zu\ suchende\ Titel,\ darf\ nicht\ null\ sein.\r\n\ @return\ Liefert\ <code>true</code>\ wenn\ der\ Titel\ in\ der\ Liste\ ist,\r\n\ \ \ \ \ \ \ \ \ ansonsten\ <code>false</code>.\r\n
+comment4.params=position
+comment4.target=Titel\ gibTitel(int)
+comment4.text=\r\n\ Liefert\ den\ Titel\ an\ der\ angegebenen\ Position.\r\n\ \r\n\ @param\ position\ Die\ Position\ des\ Titels,\ der\ zur\u00FCckgegeben\ werden\ soll,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ g\u00FCltig\ sind\ Werte\ von\ 0\ bis\ gibLaenge()-1.\r\n\ @return\ den\ Titel\ an\ der\ Position\ <code>position</code>.\r\n
+comment5.params=
+comment5.target=int\ gibLaenge()
+comment5.text=\r\n\ Liefert\ die\ L\u00E4nge\ der\ Liste.\r\n\ \r\n\ @return\ Anzahl\ der\ Titel\ in\ der\ Liste.\r\n
+comment6.params=
+comment6.target=void\ leere()
+comment6.text=\r\n\ Entfernt\ alle\ Titel\ aus\ der\ Liste.\r\n
+numComments=7
