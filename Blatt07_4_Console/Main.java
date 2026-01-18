@@ -15,11 +15,24 @@ class Main
         {
             System.out.println(s);
         }
+        int[] result = new int[26];
+        if(args.length > 0)
+         {
+            analiziereText(args[0], result);
+        }
+        
+        for(int i = 0; i < 26; i++)
+        {
+            System.out.println(result[i]); 
+        }
     }
     
-    public static int[] analiziereText(String text)
+    public static void analiziereText(String text, int[] result)
     {
-        int[] result = new int[26];
+        if(result == null || result.length < 1)
+        {
+            throw new IllegalArgumentException();
+        }
         text = text.toLowerCase();
         int l = text.length();
         for(int i = 0; i < l; i++)
@@ -28,10 +41,5 @@ class Main
             if(c < 'a' || c > 'z') continue;
             result[c - 'a'] ++; 
         }
-        for(int i = 0; i < 26; i++)
-        {
-            System.out.println(result[i]); 
-        }
-        return result;
     }
 }
