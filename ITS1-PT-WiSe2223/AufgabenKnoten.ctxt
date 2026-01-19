@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AufgabenKnoten
+comment0.text=\r\n\ Ein\ Knoten\ fuer\ eine\ einfach\ verkettete\ Struktur.\ Der\ Inhalt\r\n\ eines\ Knotens\ ist\ eine\ Aufgabe,\ jeder\ Knoten\ kann\ auf\ einen\r\n\ weiteren\ Knoten\ verweisen.\r\n\ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ WiSe\ 2022/23\r\n
+comment1.params=inhalt
+comment1.target=AufgabenKnoten(Aufgabe)
+comment1.text=\r\n\ Initialisiert\ einen\ neuen\ Knoten\ mit\ seinem\ Inhalt,\r\n\ der\ Nachfolger\ ist\ null.\r\n\ @param\ inhalt\ der\ Inhalt\ des\ neuen\ Knotens,\ darf\ nicht\ null\ sein\r\n\ @throws\ NullPointerException\r\n
+comment2.params=
+comment2.target=Aufgabe\ gibInhalt()
+comment2.text=\r\n\ Liefert\ den\ Inhalt\ dieses\ Knotens.\r\n\ @return\ den\ Inhalt,\ garantiert\ ungleich\ null\r\n
+comment3.params=knoten
+comment3.target=void\ setzeNachfolger(AufgabenKnoten)
+comment3.text=\r\n\ Setzt\ den\ \u00FCbergebenen\ StringKnoten\ als\ Nachfolger\r\n\ dieses\ Knotens.\r\n\ @param\ ein\ beliebiger\ StringKnoten,\ kann\ null\ sein\r\n
+comment4.params=
+comment4.target=AufgabenKnoten\ gibNachfolger()
+comment4.text=\r\n\ Liefert\ den\ Nachfolger\ dieses\ Knotens.\r\n\ @return\ den\ Nachfolger,\ kann\ null\ sein\r\n
+numComments=5

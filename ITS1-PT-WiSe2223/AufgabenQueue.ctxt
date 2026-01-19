@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AufgabenQueue
+comment0.text=\r\n\ Dieses\ Interface\ spezifiziert\ Queues\ von\ Aufgaben.\r\n\ \r\n\ Die\ Queue\ verwaltet\ Aufgaben\ nach\ dem\ FIFO-Prinzip,\ \r\n\ die\ zuerst\ eingef\u00FCgte\ Aufgabe\ wird\ auch\ als\ erstes\ zur\u00FCck\ geliefert.\ \r\n\ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ WiSe\ 2022/23\r\n
+comment1.params=a
+comment1.target=void\ enqueue(Aufgabe)
+comment1.text=\r\n\ Diese\ Operation\ f\u00FCgt\ der\ Queue\ eine\ Aufgabe\ hinzu.\r\n\ Ein\ Aufruf\ mit\ null\ f\u00FChrt\ zu\ einer\ IllegalArgumentException.\r\n\ \r\n\ @param\ a\ die\ in\ die\ Queue\ einzuf\u00FCgende\ Aufgabe,\ darf\ nicht\ null\ sein.\r\n\ @throws\ IllegalArgumentException\r\n
+comment2.params=
+comment2.target=Aufgabe\ dequeue()
+comment2.text=\r\n\ Diese\ Operation\ liefert\ die\ n\u00E4chste\ Aufgabe\ aus\ der\ Queue.\r\n\ Die\ Aufgabe\ wird\ aus\ der\ Queue\ gel\u00F6scht.\ Darf\ nicht\ aufgerufen\r\n\ werden,\ wenn\ die\ Queue\ leer\ ist.\r\n\ Ein\ Aufruf\ bei\ leerer\ Queue\ f\u00FChrt\ zu\ einer\ IllegalStateException.\r\n\ \r\n\ @return\ die\ n\u00E4chste\ Aufgabe\ der\ Queue.\r\n\ @throws\ IllegalStateException\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=\r\n\ Diese\ Operation\ liefert\ true,\ wenn\ die\ Queue\ keine\ Aufgabe\ enth\u00E4lt,\r\n\ sonst\ false.\r\n\ \r\n\ @return\ ob\ die\ Queue\ leer\ ist.\r\n
+numComments=4

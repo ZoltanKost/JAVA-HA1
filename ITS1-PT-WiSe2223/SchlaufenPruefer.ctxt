@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SchlaufenPruefer
+comment0.text=\r\n\ Pr\u00FCft\ bei\ einer\ verketteten\ Struktur\ von\ AufgabenKnoten,\ ob\ diese\ eine\ Schlaufe\ enth\u00E4lt.\r\n\ Falls\ sie\ eine\ Schlaufe\ enth\u00E4lt,\ kann\ ein\ SchlaufenPruefer\ auch\ ermitteln,\ wie\ viele\ \r\n\ Elemente\ die\ Schlaufe\ enth\u00E4lt\ und\ wie\ viele\ Elemente\ nicht\ in\ der\ Schlaufe\ enthalten\ sind.\r\n\ \ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ WiSe\ 2022/23\r\n
+comment1.params=kopf
+comment1.target=boolean\ enthaeltSchlaufe(AufgabenKnoten)
+comment1.text=\r\n\ Stellt\ fest,\ ob\ die\ \u00FCbergebene\ verkettete\ Struktur\ eine\ Schlaufe\ enth\u00E4lt.\r\n\ @param\ kopf\ der\ Kopf\ der\ verketteten\ Struktur,\ kann\ null\ sein\r\n\ @return\ true,\ wenn\ die\ Struktur\ eine\ Schlaufe\ enth\u00E4lt,\ false\ sonst\r\n
+comment2.params=kopf
+comment2.target=int\ laengeDerSchlaufe(AufgabenKnoten)
+comment2.text=\r\n\ Liefert\ die\ L\u00E4nge\ der\ Schlaufe\ in\ der\ \u00FCbergebenen\ verketteten\ Struktur,\r\n\ falls\ diese\ eine\ Schlaufe\ enth\u00E4lt,\ 0\ sonst.\r\n\ @param\ kopf\ der\ Kopf\ der\ verketteten\ Struktur,\ kann\ null\ sein\r\n\ @return\ Anzahl\ der\ Knoten\ in\ der\ Schlaufe,\ falls\ vorhanden,\ 0\ sonst\r\n
+comment3.params=kopf
+comment3.target=int\ laengeDesVorlaufs(AufgabenKnoten)
+comment3.text=\r\n\ Liefert\ die\ L\u00E4nge\ des\ Vorlaufs\ bis\ zur\ Schlaufe\ in\ der\ \u00FCbergebenen\r\n\ verketteten\ Struktur,\ falls\ diese\ eine\ Schlaufe\ enth\u00E4lt,\ sonst\ die\r\n\ L\u00E4nge\ der\ Liste.\r\n\ @param\ kopf\ der\ Kopf\ der\ verketteten\ Struktur,\ kann\ null\ sein\r\n\ @return\ Anzahl\ der\ Knoten\ vom\ Kopf\ bis\ zur\ Schlaufe,\ falls\ vorhanden,\r\n\ \ \ \ \ \ \ \ \ sonst\ die\ Anzahl\ der\ Knoten\r\n
+numComments=4

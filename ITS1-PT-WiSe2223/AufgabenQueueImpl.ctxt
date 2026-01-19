@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AufgabenQueueImpl
+comment0.text=\r\n\ Diese\ Implementation\ f\u00FCgt\ am\ Ende\ einer\ verketteten\ Liste\ an\ und\ entnimmt\ am\ Kopf.\r\n\ \r\n\ @author\ Axel\ Schmolitzky\r\n\ @version\ WiSe\ 2022/23\r\n
+comment1.params=
+comment1.target=AufgabenQueueImpl()
+comment2.params=a
+comment2.target=void\ enqueue(Aufgabe)
+comment3.params=
+comment3.target=Aufgabe\ dequeue()
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment5.params=
+comment5.target=AufgabenKnoten\ gibLetztenKnoten()
+comment5.text=\r\n\ Liefert\ den\ Waechterknoten,\ wenn\ die\ Queue\ leer\ ist.\r\n
+numComments=6

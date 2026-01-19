@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=SchlaufenPrueferTest
+comment0.text=\r\n\ Test-Klasse\ den\ Schlaufen-Pr\u00FCfer.\r\n\r\n\ @author\ Axel\ Schmolitzky\r\n\ @version\ WiSe\ 2022/23\r\n
+comment1.params=
+comment1.target=SchlaufenPrueferTest()
+comment2.params=
+comment2.target=void\ erzeugeZuTestendesExemplar()
+comment3.params=
+comment3.target=void\ testenthaeltSchlaufe1()
+comment4.params=
+comment4.target=void\ testenthaeltSchlaufe2()
+comment5.params=
+comment5.target=void\ testlaengeDerSchlaufe1()
+comment6.params=
+comment6.target=void\ testlaengeDerSchlaufe2()
+comment7.params=
+comment7.target=void\ testLaengeDesVorlaufs1()
+comment8.params=
+comment8.target=void\ testLaengeDesVorlaufs2()
+numComments=9

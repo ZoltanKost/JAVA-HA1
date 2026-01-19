@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ServiceMixImpl
+comment0.text=\r\n\ Eine\ Klasse\ mit\ mehreren\ Dienstleister-Methoden.\r\n\ Die\ R\u00FCmpfe\ sind\ sinnvoll\ zu\ f\u00FCllen\!\r\n\ \r\n\ @author\ (Dein\ Name,\ Deine\ Matrikelnummer)\r\n\ @version\ 2022/23\r\n
+comment1.params=
+comment1.target=ServiceMixImpl()
+comment2.params=menge
+comment2.target=java.util.Set\ kuerzesteStringsIn(java.util.Set)
+comment3.params=vonChar\ inString
+comment3.target=int\ anzahlAuftreten(char,\ java.lang.String)
+comment4.params=liste
+comment4.target=int\ anzahlUnikate(java.util.List)
+comment5.params=zahlen
+comment5.target=int[]\ negativeZahlen(int[])
+comment6.params=zahlen
+comment6.target=int[]\ zeileMitGroessterSumme(int[][])
+numComments=7

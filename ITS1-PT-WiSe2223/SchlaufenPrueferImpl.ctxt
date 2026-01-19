@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SchlaufenPrueferImpl
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SchlaufenPrueferImpl\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=SchlaufenPrueferImpl()
+comment2.params=kopf
+comment2.target=boolean\ enthaeltSchlaufe(AufgabenKnoten)
+comment2.text=\r\n\ Stellt\ fest,\ ob\ die\ \u00FCbergebene\ verkettete\ Struktur\ eine\ Schlaufe\ enth\u00E4lt.\r\n\ @param\ kopf\ der\ Kopf\ der\ verketteten\ Struktur,\ kann\ null\ sein\r\n\ @return\ true,\ wenn\ die\ Struktur\ eine\ Schlaufe\ enth\u00E4lt,\ false\ sonst\r\n
+comment3.params=kopf
+comment3.target=int\ laengeDerSchlaufe(AufgabenKnoten)
+comment3.text=\r\n\ Liefert\ die\ L\u00E4nge\ der\ Schlaufe\ in\ der\ \u00FCbergebenen\ verketteten\ Struktur,\r\n\ falls\ diese\ eine\ Schlaufe\ enth\u00E4lt,\ 0\ sonst.\r\n\ @param\ kopf\ der\ Kopf\ der\ verketteten\ Struktur,\ kann\ null\ sein\r\n\ @return\ Anzahl\ der\ Knoten\ in\ der\ Schlaufe,\ falls\ vorhanden,\ 0\ sonst\r\n
+comment4.params=kopf
+comment4.target=int\ countSchlaufe(AufgabenKnoten)
+comment5.params=kopf
+comment5.target=int\ laengeDesVorlaufs(AufgabenKnoten)
+comment5.text=\r\n\ Liefert\ die\ L\u00E4nge\ des\ Vorlaufs\ bis\ zur\ Schlaufe\ in\ der\ \u00FCbergebenen\r\n\ verketteten\ Struktur,\ falls\ diese\ eine\ Schlaufe\ enth\u00E4lt,\ sonst\ die\r\n\ L\u00E4nge\ der\ Liste.\r\n\ @param\ kopf\ der\ Kopf\ der\ verketteten\ Struktur,\ kann\ null\ sein\r\n\ @return\ Anzahl\ der\ Knoten\ vom\ Kopf\ bis\ zur\ Schlaufe,\ falls\ vorhanden,\r\n\ \ \ \ \ \ \ \ \ sonst\ die\ Anzahl\ der\ Knoten\r\n
+numComments=6

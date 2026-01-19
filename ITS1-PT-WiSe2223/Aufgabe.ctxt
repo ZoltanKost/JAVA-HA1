@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Aufgabe
+comment0.text=\r\n\ Eine\ Klasse\ f\u00FCr\ einfache\ priorisierte\ Aufgaben.\r\n\ Eine\ Aufgabe\ besteht\ aus\ einer\ Beschreibung\ und\ einer\r\n\ Priorit\u00E4t.\ Die\ niedrigste\ Priorit\u00E4t\ ist\ 0,\ 1\ bedeutet\r\n\ mittlere\ Priorit\u00E4t\ und\ 2\ ist\ die\ h\u00F6chste\ Priorit\u00E4t.\r\n\ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ WiSe\ 2022/23\r\n
+comment1.params=beschreibung\ prioritaet
+comment1.target=Aufgabe(java.lang.String,\ int)
+comment1.text=\r\n\ Initialisiert\ eine\ neue\ Aufgabe.\r\n\ @param\ beschreibung\ die\ Beschreibung\ der\ Aufgabe,\ darf\ nicht\ null\ sein.\r\n\ @param\ prioritaet\ die\ Priorit\u00E4t\ der\ Aufgabe;\ muss\ 0,1\ oder\ 2\ sein.\r\n\ @throws\ IllegalArgumentException\r\n
+comment2.params=other
+comment2.target=int\ compareTo(Aufgabe)
+comment3.params=
+comment3.target=java.lang.String\ gibBeschreibung()
+comment3.text=\r\n\ Liefert\ die\ Beschreibung\ dieser\ Aufgabe\r\n
+comment4.params=
+comment4.target=int\ gibPrioritaet()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ServiceMix2Test
+comment0.text=\r\n\ Die\ Test-Klasse\ f\u00FCr\ PermuBabbel.\r\n\r\n\ @author\ \ Axel\ Schmolitzky\r\n\ @version\ WiSe\ 2022/23\r\n
+comment1.params=
+comment1.target=ServiceMix2Test()
+comment2.params=
+comment2.target=void\ testPermuBabbelEinfach1()
+comment3.params=
+comment3.target=void\ testPermuBabbelEinfach2()
+comment4.params=
+comment4.target=void\ testPermuBabbelGrossKlein()
+comment5.params=
+comment5.target=void\ testPermuBabbelVollstaendig()
+numComments=6
