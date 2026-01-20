@@ -60,15 +60,15 @@ class ServiceMixImpl implements ServiceMix
 
     public int[] negativeZahlen(int[] zahlen)
     {
-        int[] result = new int[zahlen.length];
+        int[] result = zahlen.clone();
         for(int i = 0; i < zahlen.length; i++)
         {
-            if(zahlen[i] > 0) 
+            if(result[i] > 0) 
             {
-                result[i] = -zahlen[i];
+                result[i] = -result[i];
                 continue;
             }
-            result[i] = zahlen[i];
+            
         }
         return result;
     }
@@ -76,16 +76,16 @@ class ServiceMixImpl implements ServiceMix
     public int[] zeileMitGroessterSumme(int[][] zahlen)
     {
         int biggestSum = -1;
-        int resultIndex = 0;
+        int resultIndex = -1;//  if -1 return null
         int width = zahlen.length;
         for(int x = 0; x < width; x++)
         {
             if(zahlen[x] == null)
             {
-                if(zahlen[resultIndex] == null)
-                {
-                    resultIndex = x;
-                }
+                // if(zahlen[resultIndex] == null)
+                // {
+                    // resultIndex = x;
+                // }
                 continue;
             }
             int summ = 0;
@@ -93,16 +93,16 @@ class ServiceMixImpl implements ServiceMix
             {
                 summ += n;
             }
-            if(summ >= biggestSum || zahlen[resultIndex] == null)
+            if(summ >= biggestSum || resultIndex == -1)
             {
                 biggestSum = summ;
                 resultIndex = x;
             }
         }
-        if(zahlen[resultIndex] == null) return null;
+        if(resultIndex == -1) return null;
         int[] result = new int[zahlen[resultIndex].length];
     
-        for(int i = 0; i < result.length; i++)
+        for(int i = 0; i < result.length; i++) //.clone
         {
             result[i] = zahlen[resultIndex][i];
             System.out.println(result[i]);

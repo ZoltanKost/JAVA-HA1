@@ -85,17 +85,17 @@ class ServiceMix2Impl implements ServiceMix2
         for(int i = array.size()-1; i > 0; i--)
         {
             String current = array.get(i);
-            current = list.get(i - 1) + current;
+            current = list.get(i - 1) + current; // toLowerCase
         }
         array.set(0,list.get(array.size() - 1) + array.get(0));
         
-        String result = "";
-        for(String s: array)
-        {
-            result += s + " ";
-        }
-        result.strip();
+        // String result = "";
+        // for(String s: array)
+        // {
+            // result += s + " ";
+        // }
         
-        return result;
+        
+        return String.join(" ",array);
     }
 }

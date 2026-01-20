@@ -18,6 +18,7 @@ class SchlaufenPrueferImpl implements SchlaufenPruefer
      */
     public boolean enthaeltSchlaufe(AufgabenKnoten kopf)
     {
+        // laengederschlaufe !=0;
         if(kopf == null) return false;
         HashSet<AufgabenKnoten> contains = new HashSet<AufgabenKnoten>();
         AufgabenKnoten current = kopf.gibNachfolger();
@@ -39,9 +40,9 @@ class SchlaufenPrueferImpl implements SchlaufenPruefer
     public int laengeDerSchlaufe(AufgabenKnoten kopf)
     {
         if(kopf == null) return 0;
-        HashSet<AufgabenKnoten> contains = new HashSet<AufgabenKnoten>();
+        HashSet<AufgabenKnoten> contains = new HashSet<AufgabenKnoten>(); // hashmap<kn,index>
         AufgabenKnoten current = kopf.gibNachfolger();
-        while(current != null)
+        while(current != null) // kn.gibNach();
         {
             if(contains.contains(current)) return countSchlaufe(current);
             contains.add(current);

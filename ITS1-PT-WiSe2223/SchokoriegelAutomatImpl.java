@@ -73,13 +73,10 @@ class SchokoriegelAutomatImpl implements SchokoriegelAutomat
             _money = 0;
             return;
         }
-        if(_map.get(sorte) < anzahl)
+        if(_map.get(sorte) < anzahl) 
         {
-            anzahl = _map.get(sorte);
+            anzahl = _map.get(sorte);// Math.min(.get(s,a))
         }
-        
-        
-        
         _money -= anzahl * RIEGELPREIS;
         _map.put(sorte,_map.get(sorte) - anzahl);
         _profit += anzahl * RIEGELPREIS;
@@ -98,9 +95,9 @@ class SchokoriegelAutomatImpl implements SchokoriegelAutomat
      */
     public void leerkaufen()
     {
-        int number = anzahlRiegel() ;
-        if(_money < number * RIEGELPREIS) throw new IllegalStateException();
-        _profit += anzahlRiegel() * RIEGELPREIS;
+        int price = anzahlRiegel() * RIEGELPREIS;
+        if(_money < price) throw new IllegalStateException();
+        _profit += price;
         _map.clear();
         _money = 0;
     }
@@ -165,8 +162,9 @@ class SchokoriegelAutomatImpl implements SchokoriegelAutomat
     public int anzahlRiegel(Schokoriegel sorte)
     {
         if(sorte == null) throw new IllegalArgumentException();
-        if(!_map.containsKey(sorte)) return 0;
-        return _map.get(sorte);
+        return _map.getOrDefault(sorte,0);
+        // if(!_map.containsKey(sorte)) return 0;
+        // return _map.get(sorte);
     }
 
 }
